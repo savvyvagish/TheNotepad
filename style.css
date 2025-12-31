@@ -6,7 +6,7 @@ body {
   color: #e5e5e5;
 }
 
-/* TITLE BAR */
+// title bar
 #titlebar {
   position: fixed;
   top: 0;
@@ -29,7 +29,7 @@ body {
   -webkit-app-region: no-drag;
 }
 
-/* Mac-style dots */
+// title dots red yellow
 .controls {
   display: flex;
   gap: 8px;
@@ -51,7 +51,7 @@ body {
   background: #febc2e;
 }
 
-/* EDITOR */
+// the editor
 textarea {
   position: absolute;
   top: 32px;
