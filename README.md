@@ -18,3 +18,4 @@ The goal of this project: a distraction free text editor that feels lightweight 
   <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/559c46f0-6e54-46b4-aacc-9bac9842ff80" />
 
 ## Download for macOS
+https://github.com/savvyvagish/TheNotepad/releases
