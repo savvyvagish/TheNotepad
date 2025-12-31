@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #000;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #e5e5e5;
+}
+
+/* TITLE BAR */
+#titlebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+
+  background: #000;
+  border-bottom: 1px solid #111;
+
+  -webkit-app-region: drag;
+  z-index: 1000;
+}
+
+.controls {
+  -webkit-app-region: no-drag;
+}
+
+/* Mac-style dots */
+.controls {
+  display: flex;
+  gap: 8px;
+}
+
+.controls span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.9;
+}
+
+.close {
+  background: #ff5f57;
+}
+
+.minimize {
+  background: #febc2e;
+}
+
+/* EDITOR */
+textarea {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  border: none;
+  outline: none;
+  resize: none;
+
+  padding: 18px;
+  font-size: 15px;
+  line-height: 1.6;
+
+  background: #000;
+  color: #e5e5e5;
+  caret-color: #ffffff;
+
+  overflow-y: auto;
+  -webkit-app-region: no-drag;
+}
+
+/* Placeholder */
+textarea::placeholder {
+  color: #555;
+}
